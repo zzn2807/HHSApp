@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,p{
+    color: white;
+    font-family: Tinos;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+.content{
+    padding: 30px 5vw 70px;
+    background-color: #4CAF50;
+    min-height: calc(100vh - 135px - 70px);
+}
+
+.home-img{
+    max-width: 90vw;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}

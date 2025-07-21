@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #eef3ee;
+    position: fixed;
+    bottom: 0;
+    min-width: 100vw;
+    padding: 20px 0px 10px;
+}
+.icon {
+    max-height: 40px;
+    max-width: 40px;
+    margin: 0px 20px;
+
+    
+}
