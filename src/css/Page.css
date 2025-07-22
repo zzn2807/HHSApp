@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-h1,p{
+h1,p,.btn{
     color: white;
     font-family: Tinos;
 }
@@ -15,13 +16,29 @@ p{
     text-align: justify;
 }
 .content{
-    padding: 30px 5vw 70px;
+    padding: calc(135px + 30px) 5vw 70px;
     background-color: #4CAF50;
-    min-height: calc(100vh - 135px - 70px);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .home-img{
     max-width: 90vw;
     border-radius: 5px;
     margin-bottom: 30px;
+}
+
+.btn{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 20px;
+    width: 60vw;
 }
