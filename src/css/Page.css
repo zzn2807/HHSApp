@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1,p,.btn{
+h1,p,.btn, .ph-table{
     color: white;
     font-family: Tinos;
 }
@@ -43,4 +43,25 @@ p{
     border-radius: 20px;
     width: 60vw;
     margin-bottom: 10px;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: #eee;
+}
+
+.ph-table {
+    width: 100%;
+}
+
+td {
+    padding-bottom: 10px;
+}
+
+td:first-child{
+    text-align: left;
+}
+
+td:last-child{
+    text-align: right;
 }

@@ -6,6 +6,7 @@ import Menu from './Components/Menu';
 import MenuContext from './Context/MenuContext';
 import { Route, Routes } from 'react-router-dom';
 import { useState, useContext } from 'react';
+import PublicHours from './Components/PublicHours';
 function App() {
   const { setMenuOpen } = useContext(MenuContext);
   const [touchStart, setTouchStart] = useState(null)
@@ -38,6 +39,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/public-hours" element={<PublicHours/>}/>
       </Routes>
       <Footer />
     </div>
