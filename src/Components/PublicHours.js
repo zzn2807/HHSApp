@@ -14,7 +14,7 @@ function PublicHours() {
                 </tr>
             </table>
             <h1>Holidays:</h1>
-            <table className="ph-table">
+            <table>
                 <tr>
                     <td>New Year's Day</td>
                     <td>Jan 1</td>

@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1,p,.btn, .ph-table{
+h1,p,.btn, table{
     color: white;
     font-family: Tinos;
 }
@@ -26,7 +26,7 @@ p{
     justify-content: space-around;
 }
 
-.home-img{
+.content-img{
     max-width: 90vw;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -50,7 +50,7 @@ p{
     background-color: #eee;
 }
 
-.ph-table {
+table {
     width: 100%;
 }
 

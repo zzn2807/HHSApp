@@ -35,11 +35,11 @@ function Menu() {
                 <h1 className="menu-x" onClick={() => setMenuOpen(false)}>&#x2716;</h1>
             </div>
             <ul className="menu-list">
-                <li className="menu-item"><NavLink to="/" end>Home</NavLink></li>
-                <li className="menu-item"><NavLink to="/public-hours">Public Hours</NavLink></li>
-                <li className="menu-item"><NavLink to="/news">Newsletters/Announcements</NavLink></li>
-                <li className="menu-item"><NavLink to="survey">Client Satisfaction Survey</NavLink></li>
-                <li className="menu-item"><NavLink to="/misc">Miscellaneous</NavLink></li>
+                <li className="menu-item"><NavLink to="/" end onClick={()=>{setMenuOpen(false);return true}}>Home</NavLink></li>
+                <li className="menu-item"><NavLink to="/public-hours" onClick={()=>{setMenuOpen(false);return true}}>Public Hours</NavLink></li>
+                <li className="menu-item"><NavLink to="/news" onClick={()=>{setMenuOpen(false);return true}}>Newsletters/Announcements</NavLink></li>
+                <li className="menu-item"><NavLink to="survey" onClick={()=>{setMenuOpen(false);return true}}>Client Satisfaction Survey</NavLink></li>
+                <li className="menu-item"><NavLink to="/misc" onClick={()=>{setMenuOpen(false);return true}}>Miscellaneous</NavLink></li>
             </ul>
         </div>
     )
