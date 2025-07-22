@@ -8,6 +8,8 @@ import { Route, Routes } from 'react-router-dom';
 import { useState, useContext } from 'react';
 import PublicHours from './Components/PublicHours';
 import News from './Components/News';
+import Survey from './Components/Survey';
+import Misc from './Components/Misc';
 function App() {
   const { setMenuOpen } = useContext(MenuContext);
   const [touchStart, setTouchStart] = useState(null)
@@ -42,6 +44,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/public-hours" element={<PublicHours/>}/>
         <Route path="/news" element={<News/>}/>
+        <Route path="/survey" element={<Survey/>}/>
+        <Route path="/misc" element={<Misc/>}/>
+        <Route path="*" element={<Home/>}/>
       </Routes>
       <Footer />
     </div>
