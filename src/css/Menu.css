@@ -58,3 +58,40 @@
 .menu.open{
     width: 90vw;
 }
+
+@media screen and (min-width:1000px) {
+    .menu{
+        width: calc(100vw - 150px);
+        max-height: 60px;
+        box-shadow: none;
+        top: calc(135px - 60px)
+
+    }
+    .menu-header {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .menu-list{
+        flex-direction: row;
+        max-height: 60px;
+    }
+
+
+    .menu-list a {
+        max-height: 60px;
+        align-items: center;
+        border-radius: 20px 20px 0px 0px; 
+        min-width: 100px;
+        justify-content: center;
+        flex: 1;
+        margin-left: 10px;
+        
+    }
+    .menu-list li {
+        display: flex;
+        align-items: flex-end;
+        flex: 1;
+    }
+}
