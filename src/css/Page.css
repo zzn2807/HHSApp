@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1,p,.btn, table{
+h1,p,.btn, table, form, .content-ul{
     color: white;
     font-family: Tinos;
 }
@@ -11,7 +11,7 @@ h1{
     font-size: 24px;
     margin-bottom: 10px;
 }
-p{
+p, .content-ul{
     font-size: 18px;
     text-align: justify;
     margin-bottom: 10px;
@@ -64,4 +64,27 @@ td:first-child{
 
 td:last-child{
     text-align: right;
+}
+
+.form-div{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-div input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.form-submit{
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
 }
