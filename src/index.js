@@ -23,6 +23,7 @@ if (window.cordova) {
   document.addEventListener('deviceready', () => {
     renderReactDom();
   }, false);
+
 } else {
   renderReactDom();
 }

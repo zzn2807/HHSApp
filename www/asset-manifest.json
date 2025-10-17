@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.c2e9beab.css",
-    "main.js": "./static/js/main.47baac28.js",
+    "main.css": "./static/css/main.b00b1b97.css",
+    "main.js": "./static/js/main.f1a189e6.js",
     "static/media/ph-info.jpg": "./static/media/ph-info.614304fb79f7e9e46c7d.jpg",
     "static/media/news-img.jpg": "./static/media/news-img.eb10a37c2f5d60ee9b81.jpg",
+    "static/media/Grievance_Policy.pdf": "./static/media/Grievance_Policy.9a57c2c73e091a70a3ac.pdf",
     "static/media/home-image.jpg": "./static/media/home-image.ca4469c364abf00328fd.jpg",
+    "static/media/Client_Rights_and_Responsibilities_Policy.pdf": "./static/media/Client_Rights_and_Responsibilities_Policy.867567c6ae0e9cb88b1f.pdf",
     "static/media/HHS_Logo.png": "./static/media/HHS_Logo.61de9c7142946c4f56b3.png",
     "static/media/twitter-svg.svg": "./static/media/twitter-svg.d7450657b1635e0e20b3eae1affce2bb.svg",
     "index.html": "./index.html",
     "static/media/email-svg.svg": "./static/media/email-svg.fb6de10cd3180671a792c6b3a15ad618.svg",
     "static/media/facebook-svg.svg": "./static/media/facebook-svg.422b75e941d77c1e4e436d33753d289c.svg",
-    "main.c2e9beab.css.map": "./static/css/main.c2e9beab.css.map",
-    "main.47baac28.js.map": "./static/js/main.47baac28.js.map"
+    "main.b00b1b97.css.map": "./static/css/main.b00b1b97.css.map",
+    "main.f1a189e6.js.map": "./static/js/main.f1a189e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2e9beab.css",
-    "static/js/main.47baac28.js"
+    "static/css/main.b00b1b97.css",
+    "static/js/main.f1a189e6.js"
   ]
 }
