@@ -2,14 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --main-green : #4CAF50;
+    --main-black : #333;
+    --card-green: #619261;
 }
-h1,p,.btn, table, form, .content-ul{
+h1,p,.btn, table, form, .content-ul, h2, h3{
     color: white;
     font-family: Tinos;
 }
 h1{
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size:  20px;
 }
 p, .content-ul, table{
     font-size: 18px;
@@ -18,7 +30,7 @@ p, .content-ul, table{
 }
 .content{
     padding: calc(135px + 30px) 5vw 70px;
-    background-color: #4CAF50;
+    background-color: var(--main-green);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -35,7 +47,7 @@ p, .content-ul, table{
 .btn{
     display: block;
     text-decoration: none;
-    color: #333;
+    color: var(--main-black);
     font-weight: bold;
     text-align: center;
     padding: 20px 30px;
@@ -45,6 +57,32 @@ p, .content-ul, table{
     max-width: 400px;
     margin-bottom: 10px;
     transition: all 0.2s;
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+
+.card {
+    min-width: 350px;
+    flex: 1;
+    flex-basis: 30%;
+    text-align: center;
+    background-color: var(--card-green);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    margin-bottom: 20px;
+}
+
+.card * {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    background-color: white;
+    color: var(--main-black);
+    border-radius: 10px 10px 0px 0px;
 }
 
 .btn:hover {
