@@ -11,7 +11,7 @@ h1,p,.btn, table, form, .content-ul, h2, h3{
     font-family: Tinos;
 }
 h1{
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
@@ -27,6 +27,9 @@ p, .content-ul, table{
     font-size: 18px;
     text-align: justify;
     margin-bottom: 10px;
+}
+form p {
+    font-size: 16px;
 }
 .content{
     padding: calc(135px + 30px) 5vw 70px;
@@ -115,7 +118,9 @@ form {
     flex-direction: column;
     align-items: flex-start;
 }
-
+.form-div>label{
+    font-weight: bold;
+}
 .form-div input{
     padding: 10px;
     border-radius: 5px;
@@ -123,7 +128,18 @@ form {
 }
 
 .flex-row{
+    display: flex;
     flex-direction: row;
+}
+
+.radio-div{
+    width: 100%;
+}
+.radio-div label, .form-div li {
+    text-align: left;
+}
+.radio-div input {
+    width: auto;
 }
 
 .form-submit{
