@@ -1,11 +1,13 @@
 
 import "../css/Page.css"
+
 function Survey() {
+    
     return (
         <div className="content">
             <h1>Client Satisfaction Survey</h1>
-            <form>
-                <ol>
+            <form id="client_sat_survey" >
+                <ol> 
                     <h2>Section 1: General Information <i>(Optional)</i></h2>
                     <div className="form-div">
                         <label for="client_name">Client Name:</label>
@@ -68,7 +70,7 @@ function Survey() {
                             <input id="q2_sd" type="radio" name="The clinic's location and hours are convenient: " value="Strongly Disagree" />
                             <label for="q2_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <div className="form-div">
                         <label><li>The front desk staff were respectful and helpful: </li></label>
@@ -92,7 +94,7 @@ function Survey() {
                             <input id="q3_sd" type="radio" name="The front desk staff were respectful and helpful:" value="Strongly Disagree" />
                             <label for="q3_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <div className="form-div">
                         <label><li>My therapist/clinician listens carefully to my concerns: </li></label>
@@ -116,7 +118,7 @@ function Survey() {
                             <input id="q4_sd" type="radio" name="My therapist/clinician listens carefully to my concerns: " value="Strongly Disagree" />
                             <label for="q4_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <div className="form-div">
                         <label><li>I feel comfortable and safe during my sessions: </li></label>
@@ -140,7 +142,7 @@ function Survey() {
                             <input id="q5_sd" type="radio" name="I feel comfortable and safe during my sessions: " value="Strongly Disagree" />
                             <label for="q5_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <div className="form-div">
                         <label><li>My therapist/clinician includes me in decisions about my treatment: </li></label>
@@ -164,7 +166,7 @@ function Survey() {
                             <input id="q6_sd" type="radio" name="My therapist/clinician includes me in decisions about my treatment: " value="Strongly Disagree" />
                             <label for="q6_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <div className="form-div">
                         <label><li>The services I receive are helping me reach my goals: </li></label>
@@ -188,7 +190,7 @@ function Survey() {
                             <input id="q7_sd" type="radio" name="The services I receive are helping me reach my goals: " value="Strongly Disagree" />
                             <label for="q7_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <div className="form-div">
                         <label><li>I am satisfied with the overall quality of care: </li></label>
@@ -236,7 +238,7 @@ function Survey() {
                             <input id="q9_sd" type="radio" name="I would recommend Hope Health Systems to others: " value="Strongly Disagree" />
                             <label for="q9_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <h2>Section 3: Communication and Environment</h2>
 
@@ -262,7 +264,7 @@ function Survey() {
                             <input id="q10_sd" type="radio" name="I am informed about my rights and confidentiality: " value="Strongly Disagree" />
                             <label for="q10_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <div className="form-div">
                         <label><li>The clinic environment is clean, welcoming, and comfortable: </li></label>
@@ -286,7 +288,7 @@ function Survey() {
                             <input id="q11_sd" type="radio" name="The clinic environment is clean, welcoming, and comfortable: " value="Strongly Disagree" />
                             <label for="q11_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <div className="form-div">
                         <label><li>Staff respond promptly when I call or email the office: </li></label>
@@ -310,10 +312,10 @@ function Survey() {
                             <input id="q12_sd" type="radio" name="Staff respond promptly when I call or email the office: " value="Strongly Disagree" />
                             <label for="q12_sd">Strongly Disagree</label>
                         </div>
-                    </div> 
-                    
+                    </div>
+
                     <h2>Section 4: Open-Ended Questions</h2>
-                    
+
                     <div className="form-div">
                         <label for="q13_ans"><li>What do you like most about the services you receive at Hope Health Systems?</li></label>
                         <input type="textarea" id="q13_ans" name="What do you like most about the services you receive at Hope Health Systems?"></input>
@@ -344,7 +346,7 @@ function Survey() {
                             <input id="q15_poor" type="radio" name="How would you rate your overall experience at Hope Health Systems? " value="Poor" />
                             <label for="q15_poor">Poor</label>
                         </div>
-                    </div> 
+                    </div>
 
                     <div className="form-div">
                         <label><li>Would you return for services in the future if needed?</li></label>
@@ -360,7 +362,7 @@ function Survey() {
                             <input id="q16_unsure" type="radio" name="Would you return for services in the future if needed?" value="Unsure" />
                             <label for="q16_unsure">Neutral</label>
                         </div>
-                    </div> 
+                    </div>
                     {/* 
                     <div className="form-div">
                         <label><li></li></label>
